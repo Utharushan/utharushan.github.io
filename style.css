@@ -302,6 +302,7 @@ section {
     color: var(--color-text);
     font-size: 1.5rem;
     transition: var(--transition);
+    text-decoration: none;
 }
 
 .social-links a:hover {
@@ -600,6 +601,33 @@ section {
     font-size: 0.85rem;
     font-weight: 500;
     border: 1px solid var(--color-accent);
+}
+
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background: rgba(0, 212, 255, 0.1);
+    color: var(--color-accent);
+    text-decoration: none;
+    border-radius: 25px;
+    border: 1px solid var(--color-accent);
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.project-link:hover {
+    background: var(--color-accent);
+    color: var(--color-bg);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 212, 255, 0.3);
+}
+
+.project-link i {
+    font-size: 1.1rem;
 }
 
 /* ========================================
@@ -966,13 +994,14 @@ section {
     }
 
     .timeline::before {
-        left: 20px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .timeline-item {
         flex-direction: column !important;
-        text-align: left !important;
-        padding-left: 50px;
+        text-align: center !important;
+        padding-left: 0;
     }
 
     .timeline-item .timeline-content {
@@ -981,9 +1010,10 @@ section {
     }
 
     .timeline-date {
-        left: 20px;
-        transform: translateX(-50%) translateY(-50%);
-        top: 2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -1.5rem;
+        position: relative;
     }
 
     .projects-grid,
