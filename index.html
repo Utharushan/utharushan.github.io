@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tharushan Uthayakumar - Data Science Student & Digital Technology Architect">
+    <title>Tharushan Uthayakumar | Data Science & Digital Architecture</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Interactive Background Canvas -->
+    <canvas id="bubbleCanvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">TU</a>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#volunteering" class="nav-link">Volunteering</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Tharushan Uthayakumar</h1>
+                <p class="hero-subtitle">Data Science Student at Université Paris-Saclay, Institut Polytechnique de Paris & HEC Paris</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/utharushan/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Utharushan" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="glass-card">
+                    <p class="about-text">
+                        I am a Data Science student in the first cohort of the prestigious <strong>CPES (Cycle Pluridisciplinaire d'Études Supérieures)</strong> program, a joint initiative between <strong>Université Paris-Saclay, Institut Polytechnique de Paris, and HEC Paris</strong>. This three-year program emphasizes cultural openness, collaborative project-based learning, innovation, and an introduction to research, with applications in health and society.
+                    </p>
+                    <p class="about-text">
+                        With a strong foundation in mathematics and computer science, I bridge technical expertise in data modeling with strategic thinking and societal impact. My diverse experiences, from statistical analysis at the French Ministry of Higher Education to building AI solutions for startups, reflect my commitment to leveraging data for meaningful innovation.
+                    </p>
+                    <div class="highlight-box">
+                        <ul class="achievements">
+                            <li><i class="fas fa-trophy"></i> Ranked <strong>4th out of 450</strong> at École 42 Piscine</li>
+                            <li><i class="fas fa-trophy"></i> Ranked <strong>14th out of 634</strong> in QRT Data Challenge</li>
+                            <li><i class="fas fa-trophy"></i> <strong>Best Scientific Approach Award</strong> at Hi!PARIS Data Boot Camp</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item glass-card">
+                    <div class="timeline-date">Sept 2023 – July 2026 (expected)</div>
+                    <div class="timeline-content">
+                        <h3>Université Paris-Saclay × IP Paris × HEC Paris</h3>
+                        <p class="timeline-subtitle">CPES Data Science, Society and Health</p>
+                        <p class="timeline-description">
+                            Prestigious three-year interdisciplinary program emphasizing data science applications in health and society, with increasing specialization and research introduction.
+                        </p>
+                        <ul class="timeline-modules">
+                            <li><strong>Data Science:</strong> AI, Machine Learning, Data Visualization (Python), Computational Sociology</li>
+                            <li><strong>Mathematics:</strong> Statistics, Markov Chains, Measure & Integration, Probability Theory, ODEs</li>
+                            <li><strong>Computer Science:</strong> Algorithms, Language Interpretation, R Programming, Bioinformatics</li>
+                            <li><strong>Business:</strong> Entrepreneurial Methods, Labor Law, Data Modeling with Excel, Capstone Project</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item glass-card">
+                    <div class="timeline-date">Nov 2024 – Sept 2025</div>
+                    <div class="timeline-content">
+                        <h3>École 42 Paris</h3>
+                        <p class="timeline-subtitle">Digital Technology Architect | Level: Minishell Completed</p>
+                        <p class="timeline-description">
+                            Followed in parallel with the second year of CPES.<br>
+                            Peer-learning based computer science program focusing on C programming, Shell scripting, algorithms, and system architecture. Completed intensive Piscine bootcamp (4 weeks, full-time) ranked <strong>4th out of 450 candidates</strong>.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item glass-card">
+                    <div class="timeline-date">Sept 2020 – July 2023</div>
+                    <div class="timeline-content">
+                        <h3>Lycée Rocroy Saint-Vincent de Paul (Paris)</h3>
+                        <p class="timeline-subtitle">French Baccalaureate with Highest Honours</p>
+                        <p class="timeline-description">
+                            Specializations: Mathematics and Computer Science (NSI)<br>
+                            Options: Advanced Mathematics, Italian, German, Ancient Greek
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card glass-card">
+                    <div class="experience-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Data Scientist - HEC Capstone Project</h3>
+                    <p class="experience-company">MonCab (HEC-incubated startup) | Station F / HEC Paris</p>
+                    <p class="experience-date">September 2025 – Present</p>
+                    <ul class="experience-list">
+                        <li>Supporting MonCab, a startup connecting and managing medical office rentals</li>
+                        <li>Leveraging public datasets (data.gouv.fr, CNAM, FINESS) to build structured databases</li>
+                        <li>Developing intelligent assistant infrastructure to improve user experience and platform efficiency</li>
+                        <li>Collaborating with team of 5 students, 12 hours/week project-based work</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card glass-card">
+                    <div class="experience-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Statistical Studies Officer (Intern)</h3>
+                    <p class="experience-company">French Ministry of Higher Education and Research | Paris</p>
+                    <p class="experience-date">June – August 2025</p>
+                    <ul class="experience-list">
+                        <li>Conducted data analysis for 2024 scientific employment survey integrated with national R&D survey</li>
+                        <li>Developed R script to automate statistical production chain: control modules, pipeline redesign</li>
+                        <li>Analyzed Junior Professor Chairs (CPJ) for 2021–2025 campaigns using Excel</li>
+                        <li>Drafted internal report and policy brief highlighting key findings</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Key Projects & Achievements</h2>
+            <div class="projects-grid">
+                <div class="project-card glass-card">
+                    <div class="project-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>QRT Data Challenge 2025 - Ranked 14th/634</h3>
+                    <p class="project-subtitle">ENS Paris, Collège de France & Institut Gustave Roussy</p>
+                    <p class="project-description">
+                        Developed predictive models for overall survival in myeloid leukemia patients using clinical and genomic data. Applied survival analysis techniques, feature engineering, and rigorous model validation on real-world biomedical data.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Survival Analysis</span>
+                        <span class="tag">ML</span>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <div class="project-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Hi!ckathon #6 - AI & Education</h3>
+                    <p class="project-subtitle">Hi! PARIS × Corporate Partners (L'Oréal, Capgemini, TotalEnergies, VINCI and Schneider Electric)</p>
+                    <p class="project-description">
+                        3-day intensive sprint using PISA dataset (1.7M students, 300+ variables). Developed XGBoost regression pipeline (RMSE 82.17) and designed AI-powered mental health solution connecting students, teachers, and counselors.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">XGBoost</span>
+                        <span class="tag">GridSearchCV</span>
+                        <span class="tag">Frugal AI</span>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <div class="project-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Turbofan Predictive Maintenance</h3>
+                    <p class="project-subtitle">Hi! PARIS Data Boot Camp | Best Scientific Approach Award</p>
+                    <p class="project-description">
+                        Predicted Remaining Useful Life (RUL) of aircraft engines using NASA C-MAPSS time-series sensor data. Combined data exploration, feature engineering, ML/DL techniques, and explainability methods (SHAP).
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Deep Learning</span>
+                        <span class="tag">SHAP</span>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <div class="project-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>MonCab - Data Infrastructure for AI Assistant</h3>
+                    <p class="project-subtitle">HEC Capstone Project | Station F</p>
+                    <p class="project-description">
+                        Building centralized data infrastructure for RAG-powered chatbot supporting medical office management. Collecting and preparing public datasets (data.gouv.fr, CNAM, FINESS) for LLM training.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">RAG</span>
+                        <span class="tag">LLM</span>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <div class="project-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>MentaLIPPS - Mental Health Initiative</h3>
+                    <p class="project-subtitle">2-Year Solidarity Project | LIPPS High School</p>
+                    <p class="project-description">
+                        Developed sustainable initiative to reduce academic stress using data from national surveys. Organized annual forums facilitating peer discussions and alumni exchanges on orientation and mental well-being.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Design Thinking</span>
+                        <span class="tag">Data Analysis</span>
+                        <span class="tag">Social Impact</span>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <div class="project-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>42 School Projects (Minishell & more)</h3>
+                    <p class="project-subtitle">École 42 Paris | Peer-Validated</p>
+                    <p class="project-description">
+                        Built shell interpreter, memory management systems, and algorithmic solutions in C. All projects peer-reviewed and tested by 3 students consecutively. Focus on low-level programming and system architecture.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">C</span>
+                        <span class="tag">Shell</span>
+                        <span class="tag">Algorithms</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Languages</h2>
+            <div class="skills-content">
+                <div class="skills-category glass-card">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <i class="fab fa-python"></i>
+                                <h4>Python</h4>
+                            </div>
+                            <p>Data Science & ML</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <i class="fas fa-copyright"></i>
+                                <h4>C</h4>
+                            </div>
+                            <p>System Programming</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <i class="fas fa-database"></i>
+                                <h4>SQL</h4>
+                            </div>
+                            <p>Database Management</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <i class="fab fa-r-project"></i>
+                                <h4>R</h4>
+                            </div>
+                            <p>Statistical Analysis</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <i class="fas fa-file-excel"></i>
+                                <h4>Excel</h4>
+                            </div>
+                            <p>Data Modeling</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <i class="fab fa-git-alt"></i>
+                                <h4>Git</h4>
+                            </div>
+                            <p>Version Control</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <i class="fas fa-terminal"></i>
+                                <h4>Shell/Bash</h4>
+                            </div>
+                            <p>Scripting & Automation</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <i class="fas fa-brain"></i>
+                                <h4>Machine Learning</h4>
+                            </div>
+                            <p>scikit-learn, XGBoost</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category glass-card">
+                    <h3>Languages</h3>
+                    <div class="language-grid">
+                        <div class="language-item">
+                            <i class="fas fa-globe"></i>
+                            <h4>French</h4>
+                            <p>Native</p>
+                        </div>
+                        <div class="language-item">
+                            <i class="fas fa-globe"></i>
+                            <h4>English</h4>
+                            <p>C2 - IELTS 8.5/9</p>
+                        </div>
+                        <div class="language-item">
+                            <i class="fas fa-globe"></i>
+                            <h4>Tamil</h4>
+                            <p>Bilingual</p>
+                        </div>
+                        <div class="language-item">
+                            <i class="fas fa-globe"></i>
+                            <h4>Italian</h4>
+                            <p>Limited Professional</p>
+                        </div>
+                        <div class="language-item">
+                            <i class="fas fa-globe"></i>
+                            <h4>German</h4>
+                            <p>Limited Professional</p>
+                        </div>
+                        <div class="language-item">
+                            <i class="fas fa-globe"></i>
+                            <h4>Ancient Greek</h4>
+                            <p>Basic</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Volunteering Section -->
+    <section id="volunteering" class="volunteering">
+        <div class="container">
+            <h2 class="section-title">Volunteering & Community Impact</h2>
+            <div class="volunteering-grid">
+                <div class="volunteering-card glass-card">
+                    <div class="volunteering-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Institut de l'Engagement</h3>
+                    <p class="volunteering-role">Laureate - Autumn 2025 Promotion</p>
+                    <p class="volunteering-date">October 2025 – Present</p>
+                    <p class="volunteering-description">
+                        Selected as laureate for demonstrated commitment to social engagement and community impact.
+                    </p>
+                </div>
+
+                <div class="volunteering-card glass-card">
+                    <div class="volunteering-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Article 1</h3>
+                    <p class="volunteering-role">Student Advisor & Community Moderator</p>
+                    <p class="volunteering-date">September 2022 – Present (3+ years)</p>
+                    <ul class="experience-list">
+                        <li><strong>Student Advisor:</strong> Mentoring students on academic orientation and higher education opportunities through Article 1 association</li>
+                        <li><strong>ASTCommunity Moderator:</strong> Managing Discord server with 11,000+ members helping students join business schools via AST (Admissions Sur Titre) pathway</li>
+                        <li><strong>Arway Startup Mentor:</strong> Answering high school and university students' questions about academic paths and career guidance</li>
+                        <li><strong>Mission:</strong> Making educational information more accessible and reducing information asymmetry for students from all backgrounds</li>
+                    </ul>
+                </div>
+
+                <div class="volunteering-card glass-card">
+                    <div class="volunteering-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Founding General Secretary</h3>
+                    <p class="experience-company">BDE CPES Paris-Saclay (Student Union)</p>
+                    <p class="experience-date">July 2024 – Present</p>
+                    <ul class="experience-list">
+                        <li>Created the association: drafted statutes and submitted for official recognition</li>
+                        <li>Coordinated student events to strengthen campus cohesion and engagement</li>
+                        <li>Managed administrative aspects including activities planning and budget management</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info glass-card">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:tharushan.uthayakumar@hec.edu">tharushan.uthayakumar@hec.edu</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/utharushan/" target="_blank" rel="noopener noreferrer">linkedin.com/in/utharushan</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/Utharushan" target="_blank" rel="noopener noreferrer">github.com/Utharushan</a>
+                    </div>
+                </div>
+
+                <form class="contact-form glass-card" id="contactForm">
+                    <h3>Send a Message</h3>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <div id="formStatus" class="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Tharushan Uthayakumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
